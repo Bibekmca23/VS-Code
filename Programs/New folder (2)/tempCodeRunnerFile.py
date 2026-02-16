@@ -1,8 +1,7 @@
-t = (2, 4, 3, 6, 8, 11, 1, 9)
-k=2
-print(t) 
-n=len(t)
-s=tuple(sorted(t))
-print(s)
-print(s[:k])
-print(s[-k:])
+T_list=[1,2,3]
+O_list=[]
+for i in T_list:
+    a=i,i**3
+    O_list.append(a)
+    # O_list.append((i,i**3))   # can be written like this
+print(O_list)
