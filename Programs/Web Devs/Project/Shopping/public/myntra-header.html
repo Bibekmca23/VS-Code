@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myntra</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <style>
+      header {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        background-color: rgb(246, 243, 243);
+      }
+
+      nav span {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: bold;
+        color: gray;
+      }
+
+      .myntra-logo {
+        color: red;
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: Brush Script MT, cursive;
+      }
+
+      .search-bar {
+        border: 2px solid rgb(211, 211, 211);
+        padding: 10px;
+        font-size: 14px;
+        background-color: rgb(238, 238, 238);
+        width: 270px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: gray;
+      }
+
+      .shortcuts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 150px;
+        text-align: center;
+      }
+
+      .shortcuts-title {
+        font-size: 12px;
+        color: gray;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="myntra-logo">M</div>
+      <div>
+        <nav>
+          <span>MEN</span>
+          <span>WOMEN</span>
+          <span>KIDS</span>
+          <span>HOME</span>
+          <span>BEAUTY</span>
+          <span>GENZ</span>
+          <span>STUDIO</span>
+        </nav>
+      </div>
+      <div>
+        <div class="serch-bar">
+          <div class="search-bar">
+            <span class="bi bi-search"></span>
+            <span>Search for Products,brands and more</span>
+          </div>
+        </div>
+      </div>
+      <div class="shortcuts">
+        <div>
+          <span class="bi bi-person"></span>
+          <span class="shortcuts-title">Profile</span>
+        </div>
+
+        <div>
+          <span class="bi bi-heart"></span>
+          <span class="shortcuts-title">Wishlist</span>
+        </div>
+        <div>
+          <span class="bi bi-bag"></span>
+          <span class="shortcuts-title">Bag</span>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
