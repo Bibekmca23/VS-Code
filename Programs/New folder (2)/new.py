@@ -1296,7 +1296,9 @@ Output: [(1, 1), (2, 8), (3, 27)]
 #     O_list.append(a)
 #     # O_list.append((i,i**3))   # can be written like this
 # print(O_list)
+'''
 
+'''
 
 
 
